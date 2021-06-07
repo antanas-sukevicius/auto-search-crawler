@@ -1,0 +1,82 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>The HTML5 Herald</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="db.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <style>
+        th {
+            color: aliceblue
+        }
+    </style>
+
+    <div class="row">
+        <div class="col">
+            <div class="card card-body">
+                <input id="search-input" class="form-control" type="text">
+            </div>
+        </div>
+    </div>
+
+    <table id="myTable" class="table table-striped">
+        <tr class="bg-info">
+            <th class="bg-info" data-colname="name" data-order="desc">First Name</th>
+            <th data-colname="lname" data-order="desc">Last Name</th>
+            <th data-colname="bdate" data-order="desc">Curency</th>
+        </tr>
+        <tbody id="myTable">
+
+        </tbody>
+    </table>
+</body>
+
+</html>
+
+<script>
+    $("#search-input").on('keyup', function(){
+        var value = $(this).val();
+        console.log("value: ", value);
+        var  data = searchFunction(value, db)
+        buildTabe(data)
+
+    })
+
+    function searchFunction(value, data){
+        var filteredData = [];
+        
+        for (let i = 0; i < data.length; i++) {
+            value = value.toLowerCase();
+            var name = data[i].name.toLowerCase()
+
+            if (name.includes(value)){
+                filteredData.push(data[i]);
+            }
+            
+        }
+        
+        return filteredData
+    }
+
+    buildTabe(db)
+    function buildTabe(data) {
+        var table = document.getElementById("myTable")
+        table.innerHTML='';
+        for (let i = 0; i < data.length; i++) {
+            var row = `<tr>
+                <td>${data[i].name}</td>
+                <td>${data[i].price}</td>
+                <td>${data[i].currency}</td>
+            </tr>`
+            table.innerHTML += row;
+        }
+    }
+</script>

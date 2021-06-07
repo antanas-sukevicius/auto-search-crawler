@@ -1,0 +1,55 @@
+[
+    {
+        "name": "Aixam MultiTruck",
+        "desc": "Elektra, 2015 m, Automatinė",
+        "price": "1100",
+        "currency": "EUR",
+        "href": "/skelbimas/aixam-multitruck-elektra--2015-m-komercinis-autosu-buda-0133883909.html",
+        "details": {
+            "Kaina": "1 100 €",
+            "Markė": "Aixam",
+            "Modelis": "MultiTruck",
+            "Metai": "2015-01",
+            "Kuro tipas": "Elektra",
+            "Kėbulo tipas": "Komercinis auto(su būda)",
+            "Pavarų dėžė": "Automatinė",
+            "Defektai": "Be defektų",
+            "Vairo padėtis": "Kairėje",
+            "Durų skaičius": "2/3",
+            "VIN kodas": "Tikrink automobilio istoriją",
+            "Komentaras": "Parduodamas elektromobilis mega multitruck.  Nera bateriju.  Buvo pradetas tvarkyti ,  norejom  padaryti  priekybini  furgoneli  is jo  ir dalyvauti mugese,  taciau del laiko stokos  ir pasikeitusios koncepcijos  nusprendėm parduoti.  Buves anglas.\nParduodam kaip nevaziuojanti arba dalims ,  nors buvom pajunge 4 akumuliatorius  nuo automobilio  tai vaziavo ,  tik kad akumai greit issikrauna nes per mazai ju ir  ne tokie turi buti.  Pagal dokumentus skaitosi kaip 4-ratis mopedas. Kaina galutine,  keitimai nedomina.",
+            "Nuotraukos": []
+        }
+    },
+    {
+        "name": "Aixam Kitas",
+        "desc": "0.4 l., Dyzelinas, 2001 m, Automatinė",
+        "price": "2200",
+        "currency": "EUR",
+        "href": "/skelbimas/aixam-dyzelinas--2001-m-hecbekas-0134321600.html",
+        "details": {
+            "Kaina": "2 200 € + mokesčiai",
+            "Markė": "Aixam",
+            "Modelis": "Kitas",
+            "Metai": "2001-09",
+            "Variklis": "0.4 l.",
+            "Kuro tipas": "Dyzelinas",
+            "Kėbulo tipas": "Hečbekas",
+            "Pavarų dėžė": "Automatinė",
+            "Rida, km": "44644 km",
+            "Defektai": "Be defektų",
+            "Vairo padėtis": "Kairėje",
+            "Durų skaičius": "2/3",
+            "VIN kodas": "Tikrink automobilio istoriją",
+            "Komentaras": "Sveiki parduodu MICROCAR VIRGO automobilis tvarkingas ir prižiūrėtas  automobilis važiuoja gerai naujos padangos pakeisti tepalai naujas diržas nedaužtas Kaina 2200€ kaina derinama.Galima vairuoti su AM Kategorija 867299166",
+            "Nuotraukos": [
+                "https://img.autogidas.lt/4_16_197938984/aixam-kitas-hecbekas-2001.jpg",
+                "https://img.autogidas.lt/4_16_197938990/aixam-kitas-hecbekas-2001.jpg",
+                "https://img.autogidas.lt/4_16_197939002/aixam-kitas-hecbekas-2001.jpg",
+                "https://img.autogidas.lt/4_16_197938993/aixam-kitas-hecbekas-2001.jpg",
+                "https://img.autogidas.lt/4_16_197938996/aixam-kitas-hecbekas-2001.jpg",
+                "https://img.autogidas.lt/4_16_197938999/aixam-kitas-hecbekas-2001.jpg"
+            ]
+        }
+    }
+]
